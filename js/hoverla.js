@@ -72,7 +72,7 @@ function scrollToBlock(element) {
 }
 const reviewsBtnMenu = document.querySelector('.reviews')
 reviewsBtnMenu.addEventListener('click', function () {
-    location.href = "http://127.0.0.1:5500#reviews";
+    location.href = "index.html#reviews";
 })
 
 const contactStyleOff =document.getElementById("contact-style-on")
