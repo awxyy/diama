@@ -85,9 +85,11 @@ contactStyleOff.addEventListener('click', function(){
 	
 	document.documentElement.classList.toggle('opacity-contact');
 	if (document.querySelector('.opacity-contact')) {
-        document.querySelector('.contact__list').style.display = 'flex';
+		document.querySelector('.contact__list').style.opacity = '1';
+        
     }else{
-		document.querySelector('.contact__list').style.display = 'none';
+		
+		document.querySelector('.contact__list').style.opacity = '0';
 	}
  	
 })
